@@ -1,0 +1,5 @@
+def fizz_buzz(num):
+    return ["fizzbuzz" if not a%15 
+            else "buzz" if not a%5  
+            else "fizz" if not a%3 
+            else a for a in range(1,num+1)]
