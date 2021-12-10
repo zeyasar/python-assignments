@@ -1,0 +1,10 @@
+def letters_count(a):
+    dicti = dict()
+    for i in a:
+        keys = dicti.keys()
+        if i in keys:
+            dicti[i] += 1
+            
+        else:
+            dicti[i] = 1
+    return dicti
